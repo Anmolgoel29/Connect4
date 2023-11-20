@@ -8,7 +8,7 @@ grid=Array.from(grid);
 let grd_sim=Array.apply(null,new Array(7)).map(()=>{return Array.apply(null,new Array())})
 
 let pos=1;
-document.querySelector(`.pointer div:nth-child(${pos})`).style=`background: url("png-transparent-computer-mouse-pointer-computer-keyboard-cursor-computer-mouse-love-electronics-hand-thumbnail.png");background-size: cover;`
+document.querySelector(`.pointer div:nth-child(${pos})`).style=`background: url("/png-transparent-computer-mouse-pointer-computer-keyboard-cursor-computer-mouse-love-electronics-hand-thumbnail.png");background-size: cover;`
 
 let clr=p1;
 let cnt=0;
@@ -24,7 +24,7 @@ function evnt(a)
         if(pos==1)pos=7;
         else --pos;
         
-        document.querySelector(`.pointer div:nth-child(${pos})`).style=`background: url("png-transparent-computer-mouse-pointer-computer-keyboard-cursor-computer-mouse-love-electronics-hand-thumbnail.png");background-size: cover;`
+        document.querySelector(`.pointer div:nth-child(${pos})`).style=`background: url("/png-transparent-computer-mouse-pointer-computer-keyboard-cursor-computer-mouse-love-electronics-hand-thumbnail.png");background-size: cover;`
         
         break;
         
@@ -35,7 +35,7 @@ function evnt(a)
         if(pos==7)pos=1;
         else ++pos;
         
-        document.querySelector(`.pointer div:nth-child(${pos})`).style=`background: url("png-transparent-computer-mouse-pointer-computer-keyboard-cursor-computer-mouse-love-electronics-hand-thumbnail.png");background-size: cover;`
+        document.querySelector(`.pointer div:nth-child(${pos})`).style=`background: url("/png-transparent-computer-mouse-pointer-computer-keyboard-cursor-computer-mouse-love-electronics-hand-thumbnail.png");background-size: cover;`
         
         break;
         
